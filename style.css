@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+.orbitron {
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
+body {
+        background-color: #f4f4f4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .container {
+        background-color: #d8f3dc;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        width: 600px;
+        height: 400px;
+        text-align: center;
+    }
+
+    h2 {
+        margin-bottom: 20px;
+        color: #333;
+    }
+    input::placeholder{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    input {
+        width: 96%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #52b788;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+    button {
+        width: 100%;
+        padding: 10px;
+        background-color: #2d6a4f;
+        border: none;
+        color:white;
+        font-size: 16px;
+        border-radius: 5px;
+    }
+
+    button:hover {
+        background-color:#1b4332 ;
+    }
+
+    #result {
+        font-family: "Orbitron", sans-serif;
+        margin-bottom: 20px;
+        color: #333;
+        background-color: #b7e4c7;
+        width: 96%;
+        height: 85px;
+        border-radius: 10px;
+        border:#1b4332 solid;
+        font-size: 16px;
+    }
+    #comment{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: red;
+        font-size: 20px;
+    }
+    ul{
+        padding: 10px;
+    }
