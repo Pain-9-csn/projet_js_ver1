@@ -54,7 +54,7 @@ function mul (x,y){
 }
 function div (x,y){
     if (y != 0) 
-        return x / y
+        return (x / y).toFixed(3);
     else 
         return null
 }
